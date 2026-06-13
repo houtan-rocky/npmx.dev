@@ -231,8 +231,8 @@ const stickyStyle = computed(() => {
           </div>
         </div>
 
-        <!-- eslint-disable vue/no-v-html -->
-        <div v-else class="p-6 sm:p-8 lg:p-12">
+        <div v-else class="container mx-auto py-6 sm:py-8 lg:py-12">
+          <!-- eslint-disable vue/no-v-html -->
           <div class="docs-content" v-html="docsData?.html" />
         </div>
       </main>
